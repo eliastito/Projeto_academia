@@ -89,7 +89,7 @@
     font-size: 18px;
     font-weight: bold;
     color: #333; /* Color del texto */
-    /* margin-top:20px; */
+   margin-top: 50px;
 }
 
 .texto-superpuesto-barra h3{
@@ -346,7 +346,8 @@
 
 .button-Now{
     font-weight: bold;
-    text-align:center;
+    text-align:center; 
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
    
 }
 
@@ -369,13 +370,17 @@
     width: 219px;
     margin-right:30px;
     padding: top 50px;
-    padding: bottom 20px;  
+    padding: bottom 20px;
+      
+    
 }
 
 .mi-button{
     font-weight: bold; 
     text-align:  center;
     background-color: #f40e0e;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+
 }
     
 .texto-superpuesto{
@@ -432,6 +437,8 @@
     margin-bottom: 50px; 
     font-size: 50px; /* Cambia el tamaño del texto a 16 píxeles */
     align-items: center;
+    align-items: flex-start;
+justify-content: flex-start;
 }
 
 .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover  { /* #Nombre_de_classe:active , #Nombre_de_classe:focus, #Nombre_de_classe:hover*/   
@@ -516,26 +523,28 @@
 }
 
 .container_formulario {
+    width: 1400px;
     height: 100px;
-    display: left;
-    flex-direction: column;
-    align-items: left; /*Centra horizontalmente */
-    display: flex;
+    /* display: left; */
+    /* flex-direction: column; */
+    align-items: center; /*Centra horizontalmente */
+    /* display: flex; */
     margin-top: 50px;
-    
+    /* text-align: left; */
+   /*  display: flex; */
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    /* margin: auto; Centra los elementos en línea horizontalmente */
+    text-align: center;
 } 
 
 .contacto{
     height: 100px;
-    /* width: 1100px; */ */
     display: inline-block;
     margin: auto; /* Centra los elementos en línea horizontalmente */
-     /* padding: 230px;  */
-    /* padding: top 50px;
-    padding: bottom 20px;   */ 
-     text-align: left;
-    display: left;
-    float: left; /* Hace que el elemento flote hacia la izquierda */
+     text-align:left;
+    /* display: left; */
+    /* float:left; Hace que el elemento flote hacia la izquierda */
+    text-align: center;
     
 }
 
@@ -544,23 +553,27 @@
     font-size: 92px;
     font-weight:bold;
     color: #ffffff; /* Color del texto */
-    text-align: center;
+   
+    
 }
 
 .contacto h1 span{
     background-color: #03030300; /* Fondo semi-transparente */
     font-size: 92px;
     font-weight:bold;
-    color: #FF0000; /* Color del texto */
+    color: #ff0000; /* Color del texto */
+    text-align: center;
+    
+    
 }
 
 
 .vertical-form{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    text-align: left;
+     width: ;
 }
-
-
 
  .vertical-form input{
     width: 799px; /* Ancho de la caja de entrada */
@@ -570,49 +583,35 @@
     border-right: none; /* Elimina el borde derecho*/
     border-left: none; /*Elimina el borde izquierdo */
     border-bottom: 5px;
-    border-bottom: 3px solid #FF0000; /*Establece el borde inferior*/
-    outline: none; /* Elimina el contorno cuando se enfoca*/
-    text-align:left;
-    
+    border-bottom: 3px solid #ff0000; /*Establece el borde inferior */
+    outline: none; /*Elimina el contorno cuando se enfoca*/
  }
 
 input[type="submit"].boton-envio {
     height: 52px;
     width: 230px; /* Ancho de la caja de entrada */
-    padding: 10px; /* Espaciado interno */
+    padding: 40px; /* Espaciado interno */
     background-color: #FF0000; /* Color de fondo del botón */
     color: white; /* Color del texto del botón */
     padding: 10px 20px; /* Espaciado interno del botón */
     border: none; /* Elimina el borde del botón */
     border-radius: 11px; /* Añade bordes redondeados al botón */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    margin-top: 80px; /*Ajusta el valor según sea necesario */
+    margin-top: 80px; /*Ajusta el valor según sea necesario*/
     left:61000px;
     margin: 80px auto 0;
     text-align:left;
-    
+
 }
 
-input:focus {
-    color: rgb(245, 245, 245); /* Cambia el color del texto cuando el input está enfocado */
-}
+
 input:not(:focus) {
     color: rgb(245, 245, 245); /* Cambia el color del texto cuando el input está enfocado */
+/
 }
 
 
 
-.icono-pagina-footer{
-    /* content: ""; Añade un pseudo-elemento */
-    /* position: absolute; Establece la posición absoluta */
-    /* bottom: 0; Coloca el pseudo-elemento en la parte inferior */
-    /* left: 0; Coloca el pseudo-elemento en el borde izquierdo */
-    /* width: 100%; Ancho completo */
-    /* height: 2px; /* Grosor de la línea */
-    /* background-color: red; Color de la línea */ 
-    width: 1500px;
-    height: auto;
-}
 
 
 .conteiner-footer{
@@ -623,7 +622,8 @@ input:not(:focus) {
     align-items: center;   /* Centrar verticalmente */
     height: auto; /* Ajusta la altura según tus necesidades */
     /* line-height: 85px; Interlineado del texto */
-    border-top: 2px solid red;
+    border-top: 2px solid rgb(255, 0, 0);
+    width: 1550px;
 
 }
 
@@ -638,6 +638,5 @@ input:not(:focus) {
     width: auto;
     height: 50px;
 }
-
 
 
