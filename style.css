@@ -400,6 +400,7 @@
     margin-top: 50px;
     width: 1400px;
     height: auto;
+    background-color: #000000;
 }
     
  
@@ -536,6 +537,7 @@ justify-content: flex-start;
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
     /* margin: auto; Centra los elementos en línea horizontalmente */
     text-align: center;
+    background-color: #000000;
 } 
 
 .contacto{
