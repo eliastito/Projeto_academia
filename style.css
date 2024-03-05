@@ -14,7 +14,7 @@
 }
 
 .body{
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255); 
     width:auto;
     height:auto;
 }
@@ -39,7 +39,7 @@
     /* background-color: rgba(0, 0, 0, 0.3); */
    width: auto;
    height: 50px;
-   margin-left: 30px;
+   margin-left:30px;
 }
 
 .navbar{
@@ -61,7 +61,6 @@
     padding: 5px;
     font-family: 'Poppins', sans-serif;
 }
-
 
 .clase-barra{
     position:static;
@@ -220,10 +219,9 @@
     margin-right:auto;
 }
 
-
 .mixed-martial{
     position:static;
-    display:block   ;
+    display:block;
     background-color: rgba(255, 255, 255, 0);
 
 }
@@ -252,7 +250,6 @@
     font-weight: bold;
     color: #ebebeb; /* Color del texto */
     border-bottom: 6px solid #FF0000; /* Agrega una línea inferior de 1px de grosor y sólida */
-   
 }
 
 .texto-superpuesto-martial h4 span{
@@ -325,7 +322,6 @@
     margin-right: auto;
 }
 
-
 .footer-container{
     color: #ebebeb; 
 }
@@ -394,17 +390,15 @@
 
 }
 
-
 .class-cuadrados{
     text-align: left; /* Centra los elementos hijos horizontalmente */
     font-weight: bold; 
     margin-top: 50px;
     width: 1400px;
     height: auto;
-    background-color: #000000;
-}
-    
- 
+/*     background-color: #000000;
+ */}
+
 .butons-01{
     /* text-align: left; /* Centra los elementos hijos horizontalmente */
     /* font-weight: bold;  */ 
@@ -415,9 +409,6 @@
     text-align: center
 }
 
-
-
-
 .butons-03{
     margin-left: 375px;
     margin-right: 375px;
@@ -426,7 +417,6 @@
     /* font-weight: bold;   */
     /* text-align:center; */
 }
-
 
 .btn1, .btn2, .btn3, .btn4, .btn5{
     display: flex;
@@ -449,13 +439,11 @@ justify-content: flex-start;
     color:#ff0000;
 }
 
-
 .contact-content h1 {
-    color: #ffffff;
+    color: #917373;
     margin: 0; /* Elimina el margen predeterminado */
     
 }
-
 
 .form-container{
     text-align:  left;;
@@ -470,7 +458,6 @@ justify-content: flex-start;
     height: 10vh; /* Opcional: ajusta la altura según tus necesidades */
 }
 
-
 .zumba{
     color: #ffffff;
     font-size: 64px;
@@ -478,32 +465,27 @@ justify-content: flex-start;
     margin-top: 100px;
 }
 
-
 .martial{
     color: #ffffff;
     font-size: 64px;
-    background-color: rgba(238, 209, 209, 0);
+    background-color: rgb(255, 255, 255);
     margin-top: 100px;
 }
-
 
 .texto-superpuesto-zumba h3 span{
     color: #ffffff;
     color: #FF0000;
 }
-
-    
+   
 .texto-superpuesto-martial h4 span{
     color: #ffffff;
     color: #FF0000;
 }
 
-
 .boton-envio {
     float: left; /* Mueve el botón a la izquierda */
     display: inline-block; /* Hace que el botón sea un bloque en línea */
 }
-
 
 .mi-boton-02 .mi-boton {
         background-color: #ff0000; /* Color de fondo del botón */
@@ -528,7 +510,7 @@ justify-content: flex-start;
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
     /* margin: auto; Centra los elementos en línea horizontalmente */
     text-align: center;
-    background-color: #000000;
+    /* background-color: #000000; */
 } 
 
 .contacto{
@@ -559,14 +541,12 @@ justify-content: flex-start;
      
 }
 
-
 .vertical-form{
     display: flex;
     flex-direction: column;
     text-align: left;
    
 }
-
  .vertical-form input{
     width: 799px; /* Ancho de la caja de entrada */
     padding: 40px; /* Espaciado interno */
@@ -596,12 +576,10 @@ input[type="submit"].boton-envio {
 
 }
 
-
 input:not(:focus) {
     color: rgb(245, 245, 245); /* Cambia el color del texto cuando el input está enfocado */
 
 }  
-
 
 .conteiner-footer{
     /* border-bottom: 5px solid red; Establece una línea roja en la parte inferior */
@@ -626,6 +604,7 @@ input:not(:focus) {
     margin-left: 20px; /* Espacio entre las imágenes */
     width: auto;
     height: 50px;
+    /* background-color: #000000; */
 }
 
 
